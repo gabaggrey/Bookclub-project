@@ -1,0 +1,110 @@
+nav {
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: orange;
+}
+
+.navblock{
+    text-align: right;
+    font-size: 20px;
+    padding: 5px auto;
+    font-weight: bold;
+}
+
+
+.nav-item{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: whitesmoke;
+}
+
+.display-text{
+    text-align: center;
+}
+.stars{
+    color: orange;
+    font-size: 25px;
+}
+.form-section{
+    text-align: center;
+}
+input{
+    width:30%;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+input:focus{
+    border: 2px solid orange;
+}
+input:hover{
+    border: 2px solid orange;
+}
+input:active{
+    border: 2px solid orange;
+}
+textarea{
+    width:30%;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+textarea:focus{
+    border: 2px solid orange;
+}
+textarea:hover{
+    border: 2px solid orange;
+}
+textarea:active{
+    border: 2px solid orange;
+}
+
+select{
+    width:30%;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+select:focus{
+    border: 2px solid orange;
+}
+select:hover{
+    border: 2px solid orange;
+}
+select:active{
+    border: 2px solid orange;
+}
+
+
+input[type=submit]:focus{
+    background-color: orange;
+}
+input[type=submit]:active{
+    background-color: orange;
+}
+input[type=submit]:hover{
+    background-color: orange;
+}
+
+.sub-links{
+    background-color: blue;
+}
+
+.sub-block{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px auto;
+    font-weight: bold;
+}
+
